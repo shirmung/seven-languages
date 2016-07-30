@@ -15,15 +15,9 @@
 puts 'hello world'
 
 string = 'hello ruby'
+puts string.index('ruby')
 
-first_char = string[0]
-puts first_char
-
-first_char = string.slice(0)
-puts first_char
-
-first_char = string.chars.first
-puts first_char
+puts 'shirmung ' * 10
 
 (0..9).each do |i|
   puts 'shirmung'
